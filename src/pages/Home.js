@@ -8,7 +8,7 @@ import SliderProduct from "../components/productslider/SliderProduct";
 
 function Home() {
   return (
-    <div className="">
+    <div className="w-[1473px]">
       {/* Banner */}
       <div className="">
         <Banner />
@@ -30,7 +30,7 @@ function Home() {
             </a>
             
           </div>
-          <div className="absolut max-w-screen-2xl w-full h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-[-100px]">
+          <div className="absolut w-[1473px] max-w-screen-2xl w-full h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-[-100px]">
           {data.map((Item, index) => (
             <div key={index} className="border bg-white h-[412px] ">
               {Item.card === 4 && <Card item={Item} />}

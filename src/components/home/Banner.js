@@ -83,7 +83,7 @@ const Banner = () => {
       )
     }
   return (
-    <div className='w-full '>
+    <div className='w-[1473px] md:text-xl '>
         <div className='w-full h-full relative'>
         <Slider {...settings}>
       <div>
