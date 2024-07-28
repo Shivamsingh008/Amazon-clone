@@ -14,7 +14,7 @@ import Home from "./pages/Home";
 
 const Layout =()=>{
   return (
-    <div>
+    <div >
       <Header/>
       <Outlet/>
       <Footer/>
