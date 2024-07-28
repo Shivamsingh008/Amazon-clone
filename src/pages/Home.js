@@ -39,9 +39,35 @@ function Home() {
             </div>
           ))}
           </div>
-           <div className="grid items-center bg-white mt-4 p-4 m-4"> 
+          <div className="grid items-center bg-white mt-4 p-4 m-4"> 
            <SliderProduct/>
-           </div> 
+           </div>
+          <div className="absolut w-[1473px] max-w-screen-2xl  h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-2">
+          {data.map((Item, index) => (
+            <div key={index} className="border bg-white h-[412px] ">
+              {Item.card === 4 && <Card item={Item} />}
+              {Item.card === 1 && <Card1 item={Item} />}
+             
+            </div>
+          ))}
+          
+          </div>
+          <div className="grid items-center bg-white mt-4 p-4 m-4"> 
+           <SliderProduct/>
+           </div>
+           <div className="absolut w-[1473px] max-w-screen-2xl  h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-2">
+          {data.map((Item, index) => (
+            <div key={index} className="border bg-white h-[412px] ">
+              {Item.card === 4 && <Card item={Item} />}
+              {Item.card === 1 && <Card1 item={Item} />}
+             
+            </div>
+          ))}
+          
+          </div>
+           
+
+          
         </div>
       </div>
      </div>

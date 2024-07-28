@@ -48,8 +48,8 @@ const Headerbottom = () => {
         <div className="w-full h-screen text-black  fixed top-0 left-0 bg-amazon_blue bg-opacity-50  ">
           <div className="w-full h-full relative ">
             <motion.div ref={ref} initial={{x:-500,opacity:0}} animate={{x:0, opacity:1 }} transition={{duration:0.9}}
-            className=" w-[350px] h-screen overflow-scroll bg-white border border-black">
-              <div className=" fixed w-[350px] bg-amazon_light text-white py-2 px-6 flex items-center  gap-4">
+            className=" w-[350px] h-full overflow-scroll bg-white border border-black">
+              <div className="  w-[350px] fixed  bg-amazon_light text-white py-2 px-6 flex items-center  gap-4">
                 <RiAccountCircleFill className="text-[30px]" />
                 <h3 className="font-titleFont font-bold text-lg tracking-wide ">
                   {" "}
@@ -82,7 +82,7 @@ const Headerbottom = () => {
                 two="Customer service"
                 three="Sign in"
               />
-              <span onClick={() =>setSidebar(false)} className="cursor-pointer absolute top-0 left-[360px] w-10 h-10 text-black flex items-center justify-center border bg-gray-200 hover:bg-red-500 hover:text-white duration-300">
+              <span onClick={() =>setSidebar(false)} className="cursor-pointer fixed mt-1 top-0 left-[360px] w-10 h-10 text-black flex items-center justify-center border bg-gray-200 hover:bg-red-500 hover:text-white duration-300">
               <IoCloseSharp />
             </span>
             </motion.div>
