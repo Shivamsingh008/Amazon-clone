@@ -39,7 +39,7 @@ function Home() {
             </div>
           ))}
           </div>
-           <div className=" border border-gray-50 items-center"> 
+           <div className="grid items-center bg-white mt-4 p-4 m-4"> 
            <SliderProduct/>
            </div> 
         </div>

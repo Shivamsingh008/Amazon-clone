@@ -112,11 +112,11 @@ function Header() {
 
           {/* =========== Cart Start here ========== */}
 
-          <div className="px-2 h-[80%] flex items-center border border-transparent relative hover:border-white cursor-pointer duration-100">
-          <GiShoppingCart  className="text-[30px]"/>
+          <div className="px-2 h-[90%] flex items-center border border-transparent border-cover relative hover:border-white cursor-pointer duration-100">
+          <GiShoppingCart  className="text-[33px]"/>
           <p className="text-xs font-semibold mt-3 text-whitetext  flex flex-col">
             {" "}cart
-            <span className="absolute flex text-xs -top-1 left-7 font-semibold p-1 h-4 bg-[#f3a847] text-amazon_blue rounded-full justify-center items-center">
+            <span className="absolute flex text-xs -top-1 left-7 mt-1 font-semibold p-1 h-4 bg-[#f3a847] text-amazon_blue rounded-full justify-center items-center">
               0
             </span>
           </p>
