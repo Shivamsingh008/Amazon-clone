@@ -15,7 +15,7 @@ function Home() {
       </div>
 
       {/* Content over Banner */}
-      <div className="relative bg-[#e3e6e6] bg-gradient-to-b from-gray-100 to-gray-400 from-[30px] to-30% mt-[-90px]"> {/* Adjust mt value if needed */}
+      <div className="relative bg-[#e3e6e6] bg-gradient-to-b from-gray-100 to-gray-300 from-[30px] to-20% mt-[-98px] h-[420vh] max-h-screen-2xl"> {/* Adjust mt value if needed */}
       
         <div className="grid ">
        
@@ -30,9 +30,9 @@ function Home() {
             </a>
             
           </div>
-          <div className="absolut w-[1473px] max-w-screen-2xl w-full h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-[-100px]">
+          <div className="absolut w-[1473px] max-w-screen-2xl h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-[-100px]">
           {data.map((Item, index) => (
-            <div key={index} className="border bg-white h-[412px] ">
+            <div key={index} className="border bg-white  hover:scale-105 duration-200">
               {Item.card === 4 && <Card item={Item} />}
               {Item.card === 1 && <Card1 item={Item} />}
              
@@ -44,7 +44,7 @@ function Home() {
            </div>
           <div className="absolut w-[1473px] max-w-screen-2xl  h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-2">
           {data.map((Item, index) => (
-            <div key={index} className="border bg-white h-[412px] ">
+            <div key={index} className="border bg-white h-[412px] hover:scale-105 duration-200 ">
               {Item.card === 4 && <Card item={Item} />}
               {Item.card === 1 && <Card1 item={Item} />}
              
@@ -55,9 +55,9 @@ function Home() {
           <div className="grid items-center bg-white mt-4 p-4 m-4"> 
            <SliderProduct/>
            </div>
-           <div className="absolut w-[1473px] max-w-screen-2xl  h-auto grid grid-cols-4 gap-4 pl-4 pr-4 mt-2">
+           <div className="absolut w-[1473px] max-w-screen-2xl  h-auto grid grid-cols-4 gap-4 pl-4 p-4 pr-4 mt-2">
           {data.map((Item, index) => (
-            <div key={index} className="border bg-white h-[412px] ">
+            <div key={index} className="border bg-white h-[412px] hover:scale-105 duration-200">
               {Item.card === 4 && <Card item={Item} />}
               {Item.card === 1 && <Card1 item={Item} />}
              

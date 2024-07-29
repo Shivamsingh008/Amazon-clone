@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({item}) {
   return (
-    <div className='bg-white'>
+    <div className='bg-white h-[412px]'>
       <h2 className='font-semibold text-2xl p-3  '>{item.title}</h2>
       <div className='grid grid-cols-2 gap-4 p-4   '>
         <div>
