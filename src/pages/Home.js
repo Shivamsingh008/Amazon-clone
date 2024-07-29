@@ -15,7 +15,7 @@ function Home() {
       </div>
 
       {/* Content over Banner */}
-      <div className="relative bg-[#e3e6e6] bg-gradient-to-b from-gray-100 to-gray-300 from-[30px] to-20% mt-[-98px] h-[420vh] max-h-screen-2xl"> {/* Adjust mt value if needed */}
+      <div className="relative bg-[#e3e6e6] bg-gradient-to-b from-gray-100 to-gray-300 from-[30px] to-20% mt-[-98px]  max-h-screen-2xl"> {/* Adjust mt value if needed */}
       
         <div className="grid ">
        
